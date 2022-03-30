@@ -22,7 +22,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: 15% 17% 17% 17% 17% 17%;
-  grid-template-rows: 15% 20% 75% 15% 30% 30%;
+  grid-template-rows: 15% 20% 65% 15% 25% 30%;
 }
 
 .item {
@@ -77,4 +77,51 @@ body {
   grid-column-end: -1;
   color: black;
   text-align: center;
+}
+
+.welcome p{
+  margin: -1%;
+  font-size: 20px;
+}
+
+.navbar {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.navbar h3 {
+  margin-left: 3%;
+  font-size: 26px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar li {
+  margin-right: 2rem;
+  display: flex;
+  font-size: 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.navbar li:last-child {
+  margin-right: 67px;
+  display: flex;
+}
+
+.overallrecap p{
+  
+  font-size: 20px;
+  line-height: 20px;
 }
