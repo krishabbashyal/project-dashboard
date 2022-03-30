@@ -8,6 +8,7 @@ body {
   margin: 0;
   height: 100%;
   overflow: hidden;
+
 }
 
 body {
@@ -19,10 +20,9 @@ body {
 }
 
 .container {
-  max-width: 1960px;
   display: grid;
-  grid-template-columns: 270px 330px 330px 330px 330px 330px;
-  grid-template-rows: 75px 140px 350px 80px 140px 200px;
+  grid-template-columns: 15% 17% 17% 17% 17% 17%;
+  grid-template-rows: 15% 20% 75% 15% 30% 30%;
 }
 
 .item {
