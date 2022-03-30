@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: black;
+  background: whitesmoke;
+}
+
+.container {
+  max-width: 1960px;
+  display: grid;
+  grid-template-columns: 270px 330px 330px 330px 330px 330px;
+  grid-template-rows: 75px 500px 500px;
+}
+
+.item {
+  background: steelblue;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  border: skyblue 1px solid;
+}
+
+.item:nth-of-type(1) {
+  background: white;
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
