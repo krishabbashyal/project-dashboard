@@ -15,7 +15,7 @@ body {
   max-width: 1960px;
   display: grid;
   grid-template-columns: 270px 330px 330px 330px 330px 330px;
-  grid-template-rows: 75px 500px 500px;
+  grid-template-rows: 75px 140px 350px 80px 140px 162px;
 }
 
 .item {
@@ -23,11 +23,50 @@ body {
   color: white;
   font-size: 20px;
   padding: 20px;
-  border: skyblue 1px solid;
+  border: skyblue 2px solid;
 }
 
+/* NAVBAR */
 .item:nth-of-type(1) {
   background: white;
   grid-column-start: 1;
-  grid-column-end: 7;
+  grid-column-end: -1;
+  color: black;
+  text-align: center;
+}
+
+/* SIDEBAR */
+.item:nth-of-type(2) {
+  background: orange;
+  grid-row-start: 2;
+  grid-row-end: 10;
+  color: black;
+  text-align: center;
+}
+
+/* DASHBOARD WELCOME */
+.item:nth-of-type(3) {
+  background: purple;
+  grid-column-start: 2;
+  grid-column-end: -1;
+  color: black;
+  text-align: center;
+}
+
+/* RECENT TASKS */
+.item:nth-of-type(9) {
+  background: pink;
+  grid-column-start: 2;
+  grid-column-end: -1;
+  color: black;
+  text-align: center;
+}
+
+/* OVERALL RECAP */
+.item:nth-of-type(15) {
+  background: cyan;
+  grid-column-start: 2;
+  grid-column-end: -1;
+  color: black;
+  text-align: center;
 }
