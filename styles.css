@@ -16,7 +16,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: black;
-  background: whitesmoke;
+
 }
 
 .container {
@@ -26,8 +26,7 @@ body {
 }
 
 .item {
-  background: steelblue;
-  color: white;
+  color: black;
   font-size: 20px;
   padding: 20px;
   border: skyblue 2px solid;
@@ -35,7 +34,6 @@ body {
 
 /* NAVBAR */
 .item:nth-of-type(1) {
-  background: white;
   grid-column-start: 1;
   grid-column-end: -1;
   color: black;
@@ -44,7 +42,6 @@ body {
 
 /* SIDEBAR */
 .item:nth-of-type(2) {
-  background: orange;
   grid-row-start: 2;
   grid-row-end: 10;
   color: black;
@@ -54,34 +51,33 @@ body {
 
 /* DASHBOARD WELCOME */
 .item:nth-of-type(3) {
-  background: purple;
   grid-column-start: 2;
   grid-column-end: -1;
   color: black;
-  text-align: center;
+  text-align: left;
 }
 
 /* RECENT TASKS */
 .item:nth-of-type(9) {
-  background: pink;
   grid-column-start: 2;
   grid-column-end: -1;
   color: black;
-  text-align: center;
+  text-align: left;
 }
 
 /* OVERALL RECAP */
 .item:nth-of-type(15) {
-  background: cyan;
   grid-column-start: 2;
   grid-column-end: -1;
   color: black;
-  text-align: center;
+  text-align: left;
 }
 
-.welcome p{
-  margin: -1%;
+.welcome{
+  line-height: 20px;
   font-size: 20px;
+  text-align: left;
+
 }
 
 .navbar {
@@ -120,7 +116,7 @@ body {
   display: flex;
 }
 
-.overallrecap p{
+.overallrecap{
   
   font-size: 20px;
   line-height: 20px;
