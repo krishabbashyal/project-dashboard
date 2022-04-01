@@ -23,7 +23,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: 15% 17% 17% 17% 17% 17%;
-  grid-template-rows: 11% 15% 48% 15% 25% 30%;
+  grid-template-rows: 10% 10% 40% 10% 15% 30%;
 }
 
 .item {
@@ -31,6 +31,10 @@ body {
   font-size: 20px;
   padding: 1%;
   /* border-bottom: purple 1px solid; */
+}
+
+.hiddenLi {
+  opacity: 0%;
 }
 
 /* NAVBAR */
@@ -49,7 +53,7 @@ body {
   grid-row-end: 10;
   color: black;
   text-align: center;
-  height: 110%;
+  height: 100%;
   background-color: white;
   border-right: gray 1px solid;
 }
@@ -63,6 +67,7 @@ body {
 .sidebar ul {
   background-color: white;
   list-style: none;
+  line-height: 60px;
 }
 
 .sidebar li {
@@ -81,6 +86,10 @@ body {
 .sidebar h4 {
   background-color: white;
   font-size: 20px;
+}
+
+.bottomButtons {
+  background-color: white;
 }
 /* DASHBOARD WELCOME */
 .item:nth-of-type(3) {
@@ -120,6 +129,36 @@ body {
   justify-content: center;
 }
 
+.item:nth-of-type(10) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item:nth-of-type(11) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item:nth-of-type(12) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item:nth-of-type(13) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item:nth-of-type(14) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* RECENT TASKS */
 .item:nth-of-type(9) {
   grid-column-start: 2;
@@ -146,11 +185,19 @@ body {
   line-height: 30px;
   font-size: 20px;
   text-align: left;
+  margin-left: 1%;
+}
+
+.recenttickets b {
+  font-size: 26px;
+  line-height: 40px;
+  background-color: white;
 }
 
 .recenttickets h4 {
   font-size: 26px;
   line-height: 40px;
+  margin-left: 1%;
 }
 
 .navbar {
@@ -200,6 +247,7 @@ body {
   font-size: 20px;
   line-height: 23px;
   width: 60%;
+  margin-left: 1%;
 }
 
 .card {
@@ -216,7 +264,7 @@ body {
 }
 
 .card button {
-  margin-top: 5%;
+  margin-top: 7%;
   background-color: #9bb6ee;
   border: none;
   width: 35%;
@@ -227,6 +275,7 @@ body {
   margin-top: 5%;
   text-align: center;
   background-color: white;
+  margin-bottom: -3%;
 }
 
 .card p {
@@ -238,8 +287,8 @@ body {
 .card h5 {
   background-color: white;
   text-align: center;
-  margin-top: 1%;
-  margin-bottom: 5%;
+  margin-top: 0;
+  margin-bottom: 2%;
 }
 
 .card b {
@@ -255,4 +304,19 @@ body {
 .image {
   background-color: white;
   text-align: center;
+}
+
+.assignedticket {
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  border-radius: 30px;
+  text-align: center;
+  filter: drop-shadow(1px 2px 5px #0000004b);
+}
+
+.assignedticket b,
+h5 {
+  background-color: white;
+  padding-top: 10%;
 }
