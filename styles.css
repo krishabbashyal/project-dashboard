@@ -242,6 +242,7 @@ body {
 .overallrecap h4 {
   font-size: 26px;
   line-height: 40px;
+  margin-bottom: 1%;
 }
 .overallrecap {
   font-size: 20px;
@@ -308,15 +309,25 @@ body {
 
 .assignedticket {
   width: 80%;
-  height: 100%;
+  height: 65%;
   background-color: white;
   border-radius: 30px;
   text-align: center;
   filter: drop-shadow(1px 2px 5px #0000004b);
+  margin-top: -5%;
 }
 
-.assignedticket b,
-h5 {
+.assignedticket h5 {
+  margin-top: 5%;
   background-color: white;
-  padding-top: 10%;
+  border-radius: 30px;
+}
+
+.assignedticket p {
+  background-color: white;
+  font-size: 15px;
+  border-radius: 30px;
+  text-align: left;
+  margin-left: 22%;
+  line-height: 12px;
 }
