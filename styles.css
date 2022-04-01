@@ -262,6 +262,7 @@ body {
 
 .image {
   border-radius: 30px;
+  width: 100%;
 }
 
 .card button {
@@ -277,6 +278,7 @@ body {
   text-align: center;
   background-color: white;
   margin-bottom: -3%;
+  width: 90%;
 }
 
 .card p {
