@@ -23,7 +23,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: 15% 17% 17% 17% 17% 17%;
-  grid-template-rows: 10% 10% 40% 10% 15% 30%;
+  grid-template-rows: 8% 10% 37% 10% 15% 30%;
 }
 
 .item {
@@ -317,6 +317,7 @@ body {
   text-align: center;
   filter: drop-shadow(1px 2px 5px #0000004b);
   margin-top: -5%;
+  border: 2px solid red;
 }
 
 .assignedticket h5 {
@@ -326,6 +327,110 @@ body {
 }
 
 .assignedticket p {
+  background-color: white;
+  font-size: 15px;
+  border-radius: 30px;
+  text-align: left;
+  margin-left: 22%;
+  line-height: 12px;
+}
+
+.assignedticket-2 {
+  width: 80%;
+  height: 65%;
+  background-color: white;
+  border-radius: 30px;
+  text-align: center;
+  filter: drop-shadow(1px 2px 5px #0000004b);
+  margin-top: -5%;
+  border: 2px solid rgb(0, 207, 0);
+}
+
+.assignedticket-2 h5 {
+  margin-top: 5%;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.assignedticket-2 p {
+  background-color: white;
+  font-size: 15px;
+  border-radius: 30px;
+  text-align: left;
+  margin-left: 22%;
+  line-height: 12px;
+}
+
+.assignedticket-3 {
+  width: 80%;
+  height: 65%;
+  background-color: white;
+  border-radius: 30px;
+  text-align: center;
+  filter: drop-shadow(1px 2px 5px #0000004b);
+  margin-top: -5%;
+  border: 2px solid yellow;
+}
+
+.assignedticket-3 h5 {
+  margin-top: 5%;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.assignedticket-3 p {
+  background-color: white;
+  font-size: 15px;
+  border-radius: 30px;
+  text-align: left;
+  margin-left: 22%;
+  line-height: 12px;
+}
+
+.assignedticket-4 {
+  width: 80%;
+  height: 65%;
+  background-color: white;
+  border-radius: 30px;
+  text-align: center;
+  filter: drop-shadow(1px 2px 5px #0000004b);
+  margin-top: -5%;
+  border: 2px solid yellow;
+}
+
+.assignedticket-4 h5 {
+  margin-top: 5%;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.assignedticket-4 p {
+  background-color: white;
+  font-size: 15px;
+  border-radius: 30px;
+  text-align: left;
+  margin-left: 22%;
+  line-height: 12px;
+}
+
+.assignedticket-5 {
+  width: 80%;
+  height: 65%;
+  background-color: white;
+  border-radius: 30px;
+  text-align: center;
+  filter: drop-shadow(1px 2px 5px #0000004b);
+  margin-top: -5%;
+  border: 2px solid rgb(11, 11, 255);
+}
+
+.assignedticket-5 h5 {
+  margin-top: 5%;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.assignedticket-5 p {
   background-color: white;
   font-size: 15px;
   border-radius: 30px;
